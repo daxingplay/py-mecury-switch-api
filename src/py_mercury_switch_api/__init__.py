@@ -1,6 +1,6 @@
 """Mercury Switch API."""
 
-__version__ = "0.1.0"
+__version__ = "0.2.0"
 
 from .connector import MercurySwitchConnector
 from .exceptions import (
