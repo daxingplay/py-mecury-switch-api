@@ -2,6 +2,7 @@
 """Temporary test script for py-mercury-switch-api."""
 
 import sys
+
 from py_mercury_switch_api import MercurySwitchConnector
 from py_mercury_switch_api.exceptions import (
     LoginFailedError,
@@ -10,7 +11,7 @@ from py_mercury_switch_api.exceptions import (
 )
 
 
-def main():
+def main() -> None:
     """Test the Mercury Switch API with user-provided credentials."""
     print("=" * 60)
     print("Mercury Switch API Test Script")
